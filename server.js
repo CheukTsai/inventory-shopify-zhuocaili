@@ -35,5 +35,5 @@ if (process.env.NODE_ENV === "development") {
   }))
 }
 
-const port = process.env.PORT || 8000
+const port =  8000
 app.listen(port , () => {console.log("App is live on: " + port)});
